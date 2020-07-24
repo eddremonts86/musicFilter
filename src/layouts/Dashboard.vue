@@ -11,7 +11,7 @@
       overflow
       color="grey lighten-5"
     >
-    <Aside />
+      <Aside />
     </v-navigation-drawer>
 
     <v-app-bar :clipped-left="primaryDrawer.clipped" app flat="">
@@ -24,15 +24,15 @@
       <NavList />
     </v-app-bar>
 
-    <v-main>
-      <v-container fluid>
-        <v-row align="center" justify="center">
-          <v-col cols="10">
+    <v-container fluid>
+      <v-row align="center" justify="center">
+        <v-col cols="12">
+          <v-card color="grey lighten-3" class="pa-5">
             <slot></slot>
-          </v-col>
-        </v-row>
-      </v-container>
-    </v-main>
+          </v-card>
+        </v-col>
+      </v-row>
+    </v-container>
 
     <v-footer :inset="footer.inset" app>
       <v-spacer></v-spacer>

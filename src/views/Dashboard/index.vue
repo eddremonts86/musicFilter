@@ -1,6 +1,6 @@
 <template>
   <Dashboard>
-    <v-container class="about">
+    <v-container class="about" fluid>
       <h1>This is an Dashboard page</h1>
     </v-container>
   </Dashboard>
