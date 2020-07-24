@@ -1,5 +1,5 @@
 <template>
-  <v-app-bar app class="nav_bg">
+  <v-app-bar app class="nav_bg" flat>
     <div class="d-flex align-center">
       <v-img
         alt="Vuetify Logo"
@@ -11,11 +11,15 @@
       />
     </div>
     <v-spacer></v-spacer>
-    <ul class="nav_list">
-      <li>Home</li>
-      <li>Services</li>
-      <li>About us</li>
-      <li>Contact</li>
-    </ul>
+    <NavList/>
   </v-app-bar>
 </template>
+
+<script>
+import NavList from '@/components/GeneralComponents/NavList.vue'
+export default {
+  components: {
+    NavList
+  }
+};
+</script>

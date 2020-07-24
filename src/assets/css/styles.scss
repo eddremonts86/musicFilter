@@ -5,22 +5,27 @@
   margin: 0;
   box-sizing: border-box;
 }
-html{
+html {
   scroll-behavior: auto;
 }
 body {
-  #app > div > header {
-    .nav_bg {
-      background: $nav_bg;
-    }
-    ul.nav_list {
-      display: flex;
-      li {
-        list-style: none;
-        padding: 0 12px;
-        cursor: pointer;
+
+  /* Nav Bar conponent*/
+
+  header.nav_bg {
+    background: $nav_bg;  
+  }
+  #nav_list {
+    display: flex;
+    li {
+      list-style: none;
+      padding: 0 12px;
+      & > a {
+        text-decoration: none;
+        color: #212121;
         &:hover {
-          color: red;
+          cursor: pointer;
+          color: #212121ad;
         }
       }
     }
