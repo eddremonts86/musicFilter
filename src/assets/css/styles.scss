@@ -1,0 +1,53 @@
+@import "variablesCSS.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: auto;
+}
+body {
+  #app > div > header {
+    .nav_bg {
+      background: $nav_bg;
+    }
+    ul.nav_list {
+      display: flex;
+      li {
+        list-style: none;
+        padding: 0 12px;
+        cursor: pointer;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+  }
+
+  /*Home view*/
+
+  .home {
+    background: url("https://cdn.pixabay.com/photo/2017/03/09/20/53/microphone-2130806_960_720.jpg");
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 64px);
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    .home_hero {
+      width: 70ch;
+      color: white;
+      float: right;
+      h1 {
+        font-size: 6rem;
+        padding: 1rem 0;
+      }
+      p {
+        font-size: 1.4rem;
+        padding: 2rem 0;
+      }
+    }
+  }
+}

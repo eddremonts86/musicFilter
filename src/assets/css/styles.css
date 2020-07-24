@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: auto;
+}
+
+body {
+  /*Home view*/
+}
+
+body #app > div > header .nav_bg {
+  background: #ececec91;
+}
+
+body #app > div > header ul.nav_list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+body #app > div > header ul.nav_list li {
+  list-style: none;
+  padding: 0 12px;
+  cursor: pointer;
+}
+
+body #app > div > header ul.nav_list li:hover {
+  color: red;
+}
+
+body .home {
+  background: url("https://cdn.pixabay.com/photo/2017/03/09/20/53/microphone-2130806_960_720.jpg");
+  background-position: center;
+  background-size: cover;
+  height: calc(100vh - 64px);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: right;
+      -ms-flex-pack: right;
+          justify-content: right;
+}
+
+body .home .home_hero {
+  width: 70ch;
+  color: white;
+  float: right;
+}
+
+body .home .home_hero h1 {
+  font-size: 6rem;
+  padding: 1rem 0;
+}
+
+body .home .home_hero p {
+  font-size: 1.4rem;
+  padding: 2rem 0;
+}
+/*# sourceMappingURL=styles.css.map */
