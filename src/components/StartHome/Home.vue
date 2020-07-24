@@ -2,7 +2,7 @@
   <v-container>
     <div class="home_hero">
       <v-spacer></v-spacer>
-      <div class="home_content">
+      <div class="home_content" v-if="home">
         <h1>Make your own Playlist</h1>
         <p>
           Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -14,6 +14,9 @@
         </p>
         <v-btn large to="/dashboard">Generate now</v-btn>
       </div>
+      <div class="home_content" v-if="!home">
+        <h1>Page not found</h1>
+      </div>
     </div>
   </v-container>
 </template>
@@ -21,6 +24,13 @@
 <script>
 export default {
   name: "Home",
+  props: {
+    home: {
+      type: Boolean,
+      required: true,
+      default: true
+    }
+  },
   data: () => ({})
 };
 </script>

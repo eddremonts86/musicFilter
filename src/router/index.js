@@ -37,6 +37,11 @@ const routes = [
     path: "/positions",
     name: "Positions",
     component: () => import("../views/Dashboard/Generator/FilterByPosition.vue")
+  },
+  {
+    path: '*',
+    name: "NotFound",
+    component: () => import("../views/Start/404.vue")
   }
 ];
 

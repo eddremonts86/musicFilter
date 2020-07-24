@@ -10,7 +10,9 @@
       app
       overflow
       color="grey lighten-5"
-     ></v-navigation-drawer>
+    >
+    <Aside />
+    </v-navigation-drawer>
 
     <v-app-bar :clipped-left="primaryDrawer.clipped" app flat="">
       <v-app-bar-nav-icon
@@ -27,23 +29,25 @@
         <v-row align="center" justify="center">
           <v-col cols="10">
             <slot></slot>
-            </v-col>
+          </v-col>
         </v-row>
       </v-container>
     </v-main>
 
     <v-footer :inset="footer.inset" app>
+      <v-spacer></v-spacer>
       <span class="px-4">&copy; {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
 
 <script>
-import NavList from '@/components/GeneralComponents/NavList.vue'
-
+import NavList from "@/components/GeneralComponents/NavList.vue";
+import Aside from "@/components/Dashboard/General/Aside.vue";
 export default {
   components: {
-    NavList
+    NavList,
+    Aside
   },
   data: () => ({
     drawers: ["Default (no property)", "Permanent", "Temporary"],

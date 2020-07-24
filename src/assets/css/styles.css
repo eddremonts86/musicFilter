@@ -9,9 +9,14 @@ html {
   scroll-behavior: auto;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   /* Nav Bar conponent*/
   /*Home view*/
+  /* Dashboard - aside */
 }
 
 body header.nav_bg {
@@ -69,5 +74,15 @@ body .home .home_hero h1 {
 body .home .home_hero p {
   font-size: 1.4rem;
   padding: 2rem 0;
+}
+
+body a.aside_links {
+  text-decoration: none;
+  color: #212121;
+}
+
+body a.aside_links:hover {
+  cursor: pointer;
+  color: #212121ad;
 }
 /*# sourceMappingURL=styles.css.map */

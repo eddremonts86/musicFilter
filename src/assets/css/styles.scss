@@ -8,12 +8,14 @@
 html {
   scroll-behavior: auto;
 }
+a {
+  text-decoration: none;
+}
 body {
-
   /* Nav Bar conponent*/
 
   header.nav_bg {
-    background: $nav_bg;  
+    background: $nav_bg;
   }
   #nav_list {
     display: flex;
@@ -22,10 +24,10 @@ body {
       padding: 0 12px;
       & > a {
         text-decoration: none;
-        color: #212121;
+        color: $links;
         &:hover {
           cursor: pointer;
-          color: #212121ad;
+          color: $links_hover;
         }
       }
     }
@@ -53,6 +55,16 @@ body {
         font-size: 1.4rem;
         padding: 2rem 0;
       }
+    }
+  }
+
+  /* Dashboard - aside */
+  a.aside_links {
+    text-decoration: none;
+    color: $links;
+    &:hover {
+      cursor: pointer;
+      color: $links_hover;
     }
   }
 }
