@@ -2,25 +2,21 @@
   <Dashboard>
     <v-container class="PositionsView" fluid>
       <v-row>
-        <v-col cols="3">
+        <v-col sm="12" md="3" lg="2" class="grey lighten-2 rounded-lg">
           <v-row>
             <v-col cols="12"><Awards /></v-col>
             <v-col cols="12"><Genre /></v-col>
-          </v-row>
-        </v-col>
-        <v-col cols="3">
-          <v-row>
             <v-col cols="12"><TimeRange /></v-col>
             <v-col cols="12"><PositionRange /></v-col>
           </v-row>
         </v-col>
-        <v-col cols="6">
+        <v-col sm="12" md="9" lg="10">
           <v-row>
             <v-col cols="12"><MusicList /> </v-col>
-           </v-row>
+          </v-row>
         </v-col>
       </v-row>
-     </v-container>
+    </v-container>
   </Dashboard>
 </template>
 
@@ -35,7 +31,7 @@ import PositionRange from "@/components/Dashboard/General/PositionRange.vue";
 import TimeRange from "@/components/Dashboard/General/TimeRange.vue";
 
 export default {
-  name: "POsitionView",
+  name: "PositionView",
   components: {
     Dashboard,
     Awards,
