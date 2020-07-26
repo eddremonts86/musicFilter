@@ -1,7 +1,7 @@
 <template>
   <Dashboard>
     <v-container class="PositionsView" fluid>
-      <v-row >
+      <v-row>
         <v-col cols="12" class="grey lighten-2 rounded-lg">
           <v-row>
             <v-col cols="4"><Artist /></v-col>

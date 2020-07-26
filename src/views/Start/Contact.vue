@@ -1,4 +1,3 @@
-
 <template>
   <StartHome>
     <v-container class="about">

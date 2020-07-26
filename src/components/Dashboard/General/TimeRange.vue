@@ -10,7 +10,9 @@
       </v-row>
 
       <v-row v-else>
-        <v-col sm="12" md="6" lg="6"><DateSelector :refrence-prop="deteFrom" /> </v-col>
+        <v-col sm="12" md="6" lg="6"
+          ><DateSelector :refrence-prop="deteFrom" />
+        </v-col>
         <v-col sm="12" md="6" lg="6">
           <DateSelector :refrence-prop="dateTo" :label-prop="'To Date'"
         /></v-col>

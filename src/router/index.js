@@ -6,32 +6,32 @@ const routes = [
   {
     path: "/",
     name: "Home",
-    component: () => import("../views/Start/HomeView.vue"),
+    component: () => import("../views/Start/HomeView.vue")
   },
   {
     path: "/about",
     name: "About",
-    component: () => import("../views/Start/AboutView.vue"),
+    component: () => import("../views/Start/AboutView.vue")
   },
   {
     path: "/services",
     name: "Services",
-    component: () => import("../views/Start/Services.vue"),
+    component: () => import("../views/Start/Services.vue")
   },
   {
     path: "/contact",
     name: "Contact",
-    component: () => import("../views/Start/Contact.vue"),
+    component: () => import("../views/Start/Contact.vue")
   },
   {
     path: "/dashboard",
     name: "Dashboard",
-    component: () => import("../views/Dashboard/index.vue"),
+    component: () => import("../views/Dashboard/index.vue")
   },
   {
     path: "/artist",
     name: "Artist",
-    component: () => import("../views/Dashboard/Generator/FilterByArtist.vue"),
+    component: () => import("../views/Dashboard/Generator/FilterByArtist.vue")
   },
   {
     path: "/positions",
@@ -39,7 +39,7 @@ const routes = [
     component: () => import("../views/Dashboard/Generator/FilterByPosition.vue")
   },
   {
-    path: '*',
+    path: "*",
     name: "NotFound",
     component: () => import("../views/Start/404.vue")
   }
@@ -48,7 +48,7 @@ const routes = [
 const router = new VueRouter({
   mode: "history",
   base: process.env.BASE_URL,
-  routes,
+  routes
 });
 
 export default router;

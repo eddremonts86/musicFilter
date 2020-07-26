@@ -11,12 +11,12 @@
       />
     </div>
     <v-spacer></v-spacer>
-    <NavList/>
+    <NavList />
   </v-app-bar>
 </template>
 
 <script>
-import NavList from '@/components/GeneralComponents/NavList.vue'
+import NavList from "@/components/GeneralComponents/NavList.vue";
 export default {
   components: {
     NavList

@@ -1,0 +1,179 @@
+{
+    "awards": [
+        {
+            "id": "1",
+            "name": "Blue Music Awards",
+            "metas": {}
+        },
+        {
+            "id": "2",
+            "name": "40 Principales",
+            "metas": {}
+        },
+        {
+            "id": "3",
+            "name": "Grammys Awards",
+            "metas": {}
+        },
+        {
+            "id": "4",
+            "name": "Latins Grammys Awards",
+            "metas": {}
+        },
+        {
+            "id": "5",
+            "name": "Bilbord Awards",
+            "metas": {}
+        }
+    ],
+    "chats": [
+        {
+            "id": "1",
+            "name": "Salsa",
+            "awardsID": "1",
+            "metas": {}
+        },
+        {
+            "id": "2",
+            "name": "Hip Hop",
+            "awardsID": "1",
+            "metas": {}
+        },
+        {
+            "id": "3",
+            "name": "Pop",
+            "awardsID": "1",
+            "metas": {}
+        },
+        {
+            "id": "4",
+            "name": "Country",
+            "awardsID": "1",
+            "metas": {}
+        },
+        {
+            "id": "5",
+            "name": "Dance/Electronic",
+            "awardsID": "2",
+            "metas": {}
+        },
+        {
+            "id": "6",
+            "name": "Gospel",
+            "awardsID": "2",
+            "metas": {}
+        },
+        {
+            "id": "7",
+            "name": "Jazz",
+            "awardsID": "2",
+            "metas": {}
+        },
+        {
+            "id": "8",
+            "name": "Holiday",
+            "awardsID": "2",
+            "metas": {}
+        },
+        {
+            "id": "9",
+            "name": "Web",
+            "awardsID": "3",
+            "metas": {}
+        },
+        {
+            "id": "10",
+            "name": "Intrernational",
+            "awardsID": "3",
+            "metas": {}
+        },
+        {
+            "id": "11",
+            "name": "Regguetom",
+            "awardsID": "1",
+            "metas": {}
+        }
+    ],
+    "caht_list": [
+        {
+            "id": "1",
+            "name": "caht_list",
+            "chatID": "1",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "2",
+            "name": "caht_list 1",
+            "chatID": "1",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "3",
+            "name": "caht_list 2",
+            "chatID": "1",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "4",
+            "name": "caht_list 3",
+            "chatID": "2",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "5",
+            "name": "caht_list 4",
+            "chatID": "3",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "6",
+            "name": "caht_list 5",
+            "chatID": "2",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "7",
+            "name": "caht_list 6",
+            "chatID": "5",
+            "metas": {},
+            "songs": []
+        },
+        {
+            "id": "8",
+            "name": "caht_list 7",
+            "chatID": "17",
+            "metas": {},
+            "songs": []
+        }
+    ],
+    "sangs": [
+        {
+            "id": "1",
+            "name": "Sang 1",
+            "artistID": "1",
+            "metas": {}
+        }
+    ],
+    "artist": [
+        {
+            "id": "1",
+            "name": "Daddy Yankee",
+            "metas": {}
+        }
+    ],
+    "positions": [
+        {
+            "id": "1",
+            "sangID": "1",
+            "listID": "1",
+            "position_history":{},
+            "metas": {}
+        }
+    ]
+}
