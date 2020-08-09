@@ -1,0 +1,10 @@
+{
+	"auth": {
+		"musicfilter0827c318": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": [],
+			"customAuth": false
+		}
+	}
+}

@@ -4,9 +4,7 @@
 
 ### Install the Vue CLI
 ```
-npm install -g @vue/cli
-# OR
-yarn global add @vue/cli
+npm install -g @vue/cli  OR  yarn global add @vue/cli
 ```
 
 ### Install the Amplify CLI

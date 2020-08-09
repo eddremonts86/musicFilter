@@ -1,0 +1,20 @@
+{
+    "dev": {
+        "awscloudformation": {
+            "AuthRoleName": "amplify-musicfilter-dev-164625-authRole",
+            "UnauthRoleArn": "arn:aws:iam::333182947476:role/amplify-musicfilter-dev-164625-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::333182947476:role/amplify-musicfilter-dev-164625-authRole",
+            "Region": "eu-central-1",
+            "DeploymentBucketName": "amplify-musicfilter-dev-164625-deployment",
+            "UnauthRoleName": "amplify-musicfilter-dev-164625-unauthRole",
+            "StackName": "amplify-musicfilter-dev-164625",
+            "StackId": "arn:aws:cloudformation:eu-central-1:333182947476:stack/amplify-musicfilter-dev-164625/1a750690-da4f-11ea-929d-020fe99366ac",
+            "AmplifyAppId": "dry5mb7odoh7m"
+        },
+        "categories": {
+            "auth": {
+                "musicfilter0827c318": {}
+            }
+        }
+    }
+}
