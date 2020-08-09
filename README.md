@@ -1,5 +1,20 @@
 # musicfilter
 
+## Pre-requeriments
+
+### Install the Vue CLI
+```
+npm install -g @vue/cli
+# OR
+yarn global add @vue/cli
+```
+
+### Install the Amplify CLI
+```
+npm install -g @aws-amplify/cli
+```
+
+
 ## Project setup
 ```
 npm install
@@ -25,5 +40,4 @@ npm run test:e2e
 npm run lint
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+ 
