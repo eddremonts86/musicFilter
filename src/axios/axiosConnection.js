@@ -8,8 +8,8 @@ class axiosConnection {
     return {
       headers: {
         "content-type": "application/json",
-        Accept: "application/json",
-      },
+        Accept: "application/json"
+      }
     };
   }
   async getById(apiUrl, id) {

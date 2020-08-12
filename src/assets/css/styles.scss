@@ -1,4 +1,4 @@
-@import "variablesCSS.scss";
+@import "_variablesCSS.scss";
 
 * {
   padding: 0;
@@ -68,3 +68,10 @@ body {
     }
   }
 }
+
+@import "_lg.scss";
+@import "_md.scss";
+@import "_sm.scss";
+@import "_xs.scss";
+
+

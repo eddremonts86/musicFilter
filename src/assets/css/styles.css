@@ -85,4 +85,49 @@ body a.aside_links:hover {
   cursor: pointer;
   color: #212121ad;
 }
+
+@media only screen and (min-width: 1264px) and (max-width: 1904px) {
+  body .home .home_hero h1 {
+    font-size: 5rem;
+  }
+  body .home .home_hero p {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1264px) {
+  body .home .home_hero h1 {
+    font-size: 4rem;
+  }
+  body .home .home_hero p {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 600px) and (max-width: 960px) {
+  body .home .home_hero {
+    width: auto;
+    padding: 1.9rem;
+  }
+  body .home .home_hero h1 {
+    font-size: 5rem;
+  }
+  body .home .home_hero p {
+    font-size: 1.4rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body .home .home_hero {
+    width: auto;
+    padding: .5rem;
+  }
+  body .home .home_hero h1 {
+    font-size: 2.2rem;
+    padding: 0.5rem 0;
+  }
+  body .home .home_hero p {
+    font-size: 0.9rem;
+  }
+}
 /*# sourceMappingURL=styles.css.map */
